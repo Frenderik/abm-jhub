@@ -189,33 +189,52 @@ export default function PublicSector() {
 
   return (
     <div className="bg-gray-900 text-gray-100 min-h-screen">
-      {/* Hero Section */}
-      <motion.section 
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        className="relative py-20 bg-gradient-to-br from-gray-800 to-gray-900"
-      >
-        <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')" }}></div>
-        <div className="container mx-auto px-4 relative z-10">
-          <motion.h1 
-            initial={{ y: -20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6 }}
-            className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-indigo-400"
-          >
-            Public Sector Service Delivery
-          </motion.h1>
-          <motion.p 
-            initial={{ y: -10, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-gray-300 mb-8"
-          >
-            A JKUAT-led initiative adapting the PPI Toolkit to improve government services in Kenya
-          </motion.p>
+     {/* Hero Section */}
+<motion.section 
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8 }}
+  className="relative py-20 bg-gradient-to-br from-gray-800 to-gray-900"
+>
+  <div className="absolute inset-0 opacity-20" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')" }}></div>
+  <div className="container mx-auto px-4 relative z-10">
+    <motion.h1 
+      initial={{ y: -20, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6 }}
+      className="text-4xl md:text-5xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-emerald-400 to-indigo-400"
+    >
+      Public Sector Service Delivery
+    </motion.h1>
+    <motion.p 
+      initial={{ y: -10, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      transition={{ duration: 0.6, delay: 0.2 }}
+      className="text-xl text-gray-300 mb-6"
+    >
+      An initiative adapting the PPI toolkit to improve Government Services in Kenya.
+    </motion.p>
+    
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      transition={{ duration: 0.6, delay: 0.4 }}
+      className="inline-block bg-gradient-to-r from-indigo-900/50 to-emerald-900/50 p-4 rounded-lg border border-indigo-400/30 shadow-lg backdrop-blur-sm"
+    >
+      <div className="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-amber-400 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <div>
+          <p className="text-sm font-medium text-amber-100 mb-1">Project supported by</p>
+          <p className="text-base font-semibold text-white">
+            UK Government Digital Access Programme (UK DAP) <span className="text-emerald-300">Grant ACTS/KICTANet/004/2024</span>
+          </p>
         </div>
-      </motion.section>
+      </div>
+    </motion.div>
+  </div>
+</motion.section>
 
       {/* Main Content */}
       <section className="py-12">
