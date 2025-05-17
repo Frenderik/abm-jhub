@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion';
 import TeamMember from '../components/TeamMember';
 // Import images from assets folder
-import susanImage from '../assets/susan-mambo.png';
+import susanImage from '../assets/susan-mambo.png'; 
 import betsyImage from '../assets/betsy-rono.png';
 import lawrenceImage from '../assets/lawrence-nderu.png';
+import rafaelImage from '../assets/rafael.png';
 
 export default function DiseaseModeling() {
   const teamMembers = [
@@ -24,6 +25,12 @@ export default function DiseaseModeling() {
       role: "AI and ML Specialist",
       bio: "Chairman, Lecturer, and Researcher in AI/ML, Software Engineering | Digital Ecosystem Builder | Founder - JHUB Africa | Co-Founder - gDIH - | Digital Africa Connector",
       image: lawrenceImage
+    },
+    {
+      name: "Raphael Wanjiku",
+      role: "AI Deep Project",
+      bio: "Teaching Faculty - Nexford University (Washington DC) | Technical Director - DevSmart Investment Group Limited | IT Consultant | Digital Innovator | AI/ML Practitioner | Systems Integration Expert",
+      image: rafaelImage
     }
   ];
 
