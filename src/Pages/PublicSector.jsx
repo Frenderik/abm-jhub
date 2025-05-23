@@ -69,11 +69,7 @@ export default function PublicSector() {
       role: "The Alan Turing Institute",
       image: DanieleGuariso
     },
-    {
-      name: "Dr Omar A. Guerrero",
-      role: "The Alan Turing Institute",
-      image: OmarGuerrero
-    },
+    
     {
       name: "Mr Rajab Mbaruk",
       role: "Kenya National Bureau of Statistics",
@@ -89,16 +85,8 @@ export default function PublicSector() {
       role: "Jomo Kenyatta University of Agriculture and Technology",
       image: GeofreyKagombe
     },
-    {
-      name: "Ms Deepika Ravikrishnan",
-      role: "Institute of Development Studies",
-      image: DeepikaRavikrishnan
-    },
-    {
-      name: "Dr Marco Carreras",
-      role: "Institute of Development Studies",
-      image: MarcoCarreras
-    },
+    
+    
     {
       name: "Dr Patrick Gikunda",
       role: "Declan Kimathi University of Technology",
@@ -134,11 +122,7 @@ export default function PublicSector() {
       role: "African Centre for Technology Studies",
       image: SamuelWanjau
     },
-    {
-      name: "Mr Ben Jackson",
-      role: "Institute of Development Studies",
-      image: BenJackson
-    }
+    
   ];
 
   const collaborators = [
@@ -150,13 +134,7 @@ export default function PublicSector() {
       logo: JKUATLogo,
       isLead: true
     },
-    {
-      name: "The Alan Turing Institute",
-      description: "UK's national institute for AI and data science",
-      role: "PPI methodology development",
-      link: "https://www.turing.ac.uk/",
-      logo: TuringLogo
-    },
+   
     {
       name: "Kenya National Bureau of Statistics",
       description: "Kenya's principal agency for statistical data collection and analysis",
@@ -226,10 +204,7 @@ export default function PublicSector() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
         <div>
-          <p className="text-sm font-medium text-amber-100 mb-1">Project supported by</p>
-          <p className="text-base font-semibold text-white">
-            UK Government Digital Access Programme (UK DAP) <span className="text-emerald-300">Grant ACTS/KICTANet/004/2024</span>
-          </p>
+          
         </div>
       </div>
     </motion.div>
