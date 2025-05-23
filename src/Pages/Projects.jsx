@@ -67,7 +67,7 @@ export default function Projects() {
     },
     {
       title: "Scenario Testing",
-      description: "Run simulations to test various policy interventions and their potential outcomes.",
+      description: "Run different simulations to test various policy interventions and their potential outcomes.",
       icon: "",
       color: "text-indigo-400"
     },
