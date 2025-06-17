@@ -15,7 +15,7 @@ export default function Home() {
             Agent-Based Modeling(ABM) JHUB for Solving Problems
           </h1>
           <p className="text-lg md:text-xl lg:text-2xl mb-8 max-w-3xl mx-auto text-gray-300">
-            We create computational models to simulate complex systems.
+            We create computational models to simulate complex problems.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Link 
